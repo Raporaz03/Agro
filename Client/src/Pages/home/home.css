@@ -3,3 +3,7 @@
     flex-direction: column;
     align-items: center
 }
+.carouselImg{
+    height:600px;
+    width:100%;
+}
