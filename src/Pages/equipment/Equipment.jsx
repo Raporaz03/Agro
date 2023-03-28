@@ -51,7 +51,7 @@ export default function Equipment() {
           <img
             className="equipmentWrapperInfoImg"
             src={require("./Tractors.jpg")}
-            alt=""
+            alt="Tractor"
           />
           <p>There are several types of tractors, including the following:</p>
           <ul>
