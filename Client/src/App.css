@@ -1,0 +1,19 @@
+*{
+  font-family: 'Fira Sans', sans-serif;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.mainApp{
+  display: flex;
+  width: 100%;
+}
+.mainAppPage{
+  padding-left: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
