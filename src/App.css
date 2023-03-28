@@ -12,5 +12,8 @@
   width: 100%;
 }
 .mainAppPage{
-  width: 85%;
+  padding-left: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
