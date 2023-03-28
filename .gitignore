@@ -2,6 +2,11 @@
 
 # dependencies
 client/node_modules
+<<<<<<< HEAD
+=======
+server/node_modules
+socket/node_modules
+>>>>>>> 9f2b9b56b0bdeee4a6f7a2f2069c8e942f6a560c
 /.pnp
 .pnp.js
 
