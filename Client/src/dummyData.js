@@ -272,5 +272,44 @@ export const ngo = [
             url:"https://www.tractorjunction.com/assets/images/images/implementTractor/328-leal-self-propelled-1675074745.jpg" ,
             price: "75,000 "
            
+        }
+    ]
+
+    export const specialists = [
+        {
+            _id: 1,
+            itemname: "Pritha Gauri ",
+            phone:"(717) 550-1675",
+            url:"" ,
+        },
+        {
+            _id: 2,
+            itemname: "Tara Sanjaya ",
+            phone:"(248) 762-0356",
+            url:"https://media.licdn.com/dms/image/D5603AQGfzul0IVIbIQ/profile-displayphoto-shrink_100_100/0/1673790044798?e=1685577600&v=beta&t=loXRv57vPStd2YbTw_5mYTLKnzWG361yyFNABhFHQSA" ,
+        },
+        {
+            _id: 3,
+            itemname: "Sunita Sumati ",
+            phone:"(252) 258-3799",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVPz9Dx3KZoLsaeE_gEeWAcn4h_ds3FUUjoA&usqp=CAU" ,
+        },
+        {
+            _id: 4,
+            itemname: " Mukesha Bala",
+            phone:"(201) 874-8593",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU" ,
+        },
+        {
+            _id: 5,
+            itemname: "Uttara Gopinatha ",
+            phone:"(212) 658-3916",
+            url:"https://media.licdn.com/dms/image/D5603AQFJRRao1PPloQ/profile-displayphoto-shrink_100_100/0/1679996385641?e=1685577600&v=beta&t=Ezxnwj2C8p1I_iF1bXdSS8c9Kv8KYCqBVxngZw5iw1s" ,
+        },
+        {
+            _id: 6,
+            itemname: "Shreya Buggi",
+            phone:"(212) 658-3916",
+            url:"https://media.licdn.com/dms/image/C4D03AQFf4rpPdlOdoA/profile-displayphoto-shrink_400_400/0/1658639289974?e=1685577600&v=beta&t=vzy7_RmygzAnHTV0IcmskSMdI2nmU7w9wBpJ8ifVLPs" ,
         },
     ]
