@@ -1,10 +1,16 @@
 import "./navbar.css"
 import PersonIcon from '@mui/icons-material/Person';
+import { useNavigate } from "react-router";
 export default function Navbar() {
+  const navigate = useNavigate();
+  const handleClick = (e)=>{
+    navigate(e.target.name);
+  }
+
   return (
     <div className='navbarWrapper'>
       <div className='navbarWapperLeft'>
-        <button>Home</button>
+        <button name="" onClick={handleClick}>Home</button>
         <button>About</button>
         <button>News</button>
         <button>Programmes and Schemes</button>
