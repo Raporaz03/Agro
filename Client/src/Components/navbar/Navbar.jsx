@@ -1,6 +1,7 @@
 import "./navbar.css"
 import PersonIcon from '@mui/icons-material/Person';
 import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const navigate = useNavigate();
   const handleClick = (e) => {
@@ -25,8 +26,8 @@ export default function Navbar() {
             username
           </button>
           <ul className="dropdown-menu mt-2">
-            <li><a className="dropdown-item" href="#">Sign up</a></li>
-            <li><a className="dropdown-item" href="#">Log out</a></li>
+            <li><Link className="dropdown-item" to='/signup'>Sign up</Link></li>
+            <li><Link className="dropdown-item" to='/login'>Log out</Link></li>
           </ul>
         </div>
       </div>

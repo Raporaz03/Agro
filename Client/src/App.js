@@ -17,6 +17,7 @@ import Specialists from './Pages/specialists/Specialists';
 import Stores from './Pages/stores/Stores';
 import Finance from './Pages/finance/Finance';
 import Majorcrops from './Pages/majorcrops/Majorcrops';
+import Login from './Pages/login/Login';
 function App() {
   const apiKey = process.env.REACT_APP_NEWS_API;
   return (
@@ -27,9 +28,11 @@ function App() {
           <Sidebar />
           <div className='mainAppPage'>
             <Routes>
+              <Route exact path="/login" element={<Login />} />
+              <Route exact path="/signup" element={<Login />} />
               <Route exact path="/" element={<Home />} />
               <Route exact path="/about" element={<About />} />
-              <Route exact path="/news" element={<News key="general" apiKey = {apiKey} country="in" category="science" />}></Route>              <Route exact path="/profile" element={<Profile />} />
+              <Route exact path="/news" element={<News key="general" apiKey={apiKey} country="in" category="science" />}></Route>              <Route exact path="/profile" element={<Profile />} />
               <Route exact path="/dashboard" element={<Dashboard />} />
               <Route exact path="/equipment" element={<Equipment />} />
               <Route exact path="/workforce" element={<Workforce />} />
