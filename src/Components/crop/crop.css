@@ -1,0 +1,9 @@
+
+.card img{
+    height:200px;
+}
+.card a {
+    font-size: 12px;
+    background-color:greenyellow !important;
+    margin-right: 2px;
+}
