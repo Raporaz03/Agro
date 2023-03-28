@@ -2,9 +2,15 @@
   font-family: 'Fira Sans', sans-serif;
 }
 .App{
+  display: flex;
+  flex-direction: column;
   width: 100%;
   display: flex;
 }
 .mainApp{
+  display: flex;
+  width: 100%;
+}
+.mainAppPage{
   width: 85%;
 }
