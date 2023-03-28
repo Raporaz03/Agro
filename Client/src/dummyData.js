@@ -132,3 +132,184 @@ export const ngo = [
         para2: "It has aided around 8,600 small and marginal farmers in increasing the production of crops such as paddy and maize thus far. SeSTA plans to expand its work to other parts of Assam and the Northeast in the next three years, with the goal of reaching over 30,000 rural poor families."
     },
     ]
+
+
+    export const govSchemes =[
+        {
+            _id: 1,
+            name: "Pradhan Mantri Jan Dhan Yojana ",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QXB7e1werUBEdEt6cuBTeSZeeMaHVtotSw&usqp=CAU" ,
+            para1: "This scheme was launched in 2014 with the objective of providing financial inclusion to all households in India. The scheme provides a savings account, a RuPay debit card, and insurance coverage to account holders."
+           
+        },
+        {
+            _id: 2,
+            name: "Pradhan Mantri Ujjwala Yojana ",
+            url:"https://feeds.abplive.com/onecms/images/uploaded-images/2022/02/25/602390e4c7f17ba46ad218d48e5ae320_original.jpg" ,
+            para1: "This scheme was launched in 2016 with the objective of providing free LPG connections to poor households. The scheme aims to reduce the health hazards associated with the use of traditional cooking fuels."
+           
+        },
+        {
+            _id: 3,
+            name: "Pradhan Mantri Awas Yojana",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7uqjH7Qsg15XK4Z5GLOLvKqgVok8JUSzkA&usqp=CAU" ,
+            para1: "This scheme was launched in 2015 with the objective of providing affordable housing to the urban poor. The scheme aims to build 20 million houses by 2022."
+           
+        },
+        {
+            _id: 4,
+            name: "Ayushman Bharat ",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI5bcTYmQaR4wPbD0Fuk_DKsc3b4GBE46VNA&usqp=CAU" ,
+            para1: "Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) - This scheme was launched in 2018 with the objective of providing health insurance coverage to poor and vulnerable families. The scheme provides coverage of up to Rs. 5 lakh per family per year for secondary and tertiary healthcare."
+           
+        },
+        {
+            _id: 5,
+            name: "National Rural Employment Guarantee Act ",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVtH2iUj6kjbzEwosAgPeqIXvWiEJqRgjPNA&usqp=CAU" ,
+            para1: "This scheme was launched in 2005 with the objective of providing 100 days of wage employment to rural households. The scheme aims to enhance the livelihood security of rural households."
+           
+        },
+        {
+            _id: 6,
+            name: "Digital India",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNmSHIzIOznrkxXCYuVrW2JbEUfR8CxuuMg&usqp=CAU" ,
+            para1: "This scheme was launched in 2015 with the objective of transforming India into a digitally empowered society and knowledge economy. The scheme aims to provide digital infrastructure, digital literacy, and digital services to citizens."
+           
+        }
+    ]
+
+    export const selfhg = [
+        {
+            _id: 1,
+            name: " Akshaya Patra",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImX8na3x07uFZyW694kqI1u9rvbEzubL0QQ&usqp=CAU" ,
+            para1: "This NGO is known for its mid-day meal program, which provides nutritious meals to school children in India. It was founded in 2000 and currently serves over 1.8 million children in 19,039 schools across 12 states in India."
+           
+        },
+        {
+            _id: 2,
+            name: "Goonj ",
+            url:"https://goonj.org/wp-content/uploads/2021/05/Impact-Env-Alshigad-2-300x281.jpg" ,
+            para1: "Goonj is a social organization that focuses on rural development and disaster relief. It works towards creating a network of development professionals and volunteers who work towards various causes such as healthcare, education, and disaster relief."
+           
+        },
+        {
+            _id: 3,
+            name: " Teach for India",
+            url:"https://global-uploads.webflow.com/62f24893562f47d8766501aa/63610dd58fee0751003248b5_Asset%202.png" ,
+            para1: "his NGO focuses on improving the quality of education in India by recruiting young professionals to teach in under-resourced schools. It has a two-year fellowship program that places fellows in low-income schools across India."
+           
+        },
+        {
+            _id: 4,
+            name: " Smile Foundation",
+            url:"https://www.smilefoundationindia.org/wp-content/uploads/2022/09/Banner1-scaled.jpg" ,
+            para1: "Smile Foundation works towards empowering underprivileged children and youth in India by providing them with education, healthcare, and livelihood opportunities. It has impacted the lives of over 10 lakh children and their families across 25 states in India."
+           
+        },
+        {
+            _id: 5,
+            name: "Child Rights and You ",
+            url:"https://www.cry.org/wp-content/uploads/happier-childhoods.jpg" ,
+            para1: " You (CRY) is an NGO that works towards ensuring children's rights and entitlements in India. It has been working towards this cause since 1979 and has impacted the lives of over 3 million children in India."
+           
+        },
+        {
+            _id: 6,
+            name: "Pratham ",
+            url:"https://www.pratham.org/wp-content/uploads/2023/03/Education-3-2048x1365.jpg" ,
+            para1: "Pratham is an NGO that focuses on improving the quality of education in India, especially for children from underprivileged backgrounds. It has a variety of programs, including remedial classes, teacher training, and vocational training."
+           
+        },
+    ]
+
+    export const stores = [
+        {
+            _id: 1,
+            itemname: "Tractors ",
+            sellername:"Ram",
+            url:"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQgfYutJ7vxNV3ncZgZE0cIJ1ZP1MJ1VfHzij1KzbFUZH9MjMUqtwcIcGTF6VdNRqJOQhQ0zdP8hkKhEiundRg-9WFo6TYvhzGphbcZLTirUyRNFkk&usqp=CAE" ,
+            price: "1,60,000 "
+           
+        },
+        {
+            _id: 2,
+            itemname: "Harvesters ",
+            sellername:"Tannu",
+            url:"https://www.tractorjunction.com/assets/images/images/implementTractor/40009999.jpg" ,
+            price: "1,38,000 "
+           
+        },
+        {
+            _id: 3,
+            itemname: "Planters ",
+            sellername:"Gullu",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxaU9SIVC1AZUv0jJW0WtEs0IgZlw0iiFs-w&usqp=CAU" ,
+            price: "30000 "
+           
+        },
+        {
+            _id: 4,
+            itemname: "Fertilizer spreaders ",
+            sellername:"Raju",
+            url:"https://5.imimg.com/data5/ANDROID/Default/2022/5/GT/LX/OC/30461818/product-jpeg-250x250.jpg" ,
+            price: "40,000 "
+           
+        },
+        {
+            _id: 5,
+            itemname: "Crop dusters ",
+            sellername:"Anselum",
+            url:"https://cdn.britannica.com/19/195319-050-E769F280/Crop-duster-pesticides.jpg" ,
+            price: " 3,00,000"
+           
+        },
+        {
+            _id: 6,
+            itemname: "Combines ",
+            sellername:"perunjel",
+            url:"https://www.tractorjunction.com/assets/images/images/implementTractor/328-leal-self-propelled-1675074745.jpg" ,
+            price: "75,000 "
+           
+        }
+    ]
+
+    export const specialists = [
+        {
+            _id: 1,
+            itemname: "Pritha Gauri ",
+            phone:"(717) 550-1675",
+            url:"" ,
+        },
+        {
+            _id: 2,
+            itemname: "Tara Sanjaya ",
+            phone:"(248) 762-0356",
+            url:"https://media.licdn.com/dms/image/D5603AQGfzul0IVIbIQ/profile-displayphoto-shrink_100_100/0/1673790044798?e=1685577600&v=beta&t=loXRv57vPStd2YbTw_5mYTLKnzWG361yyFNABhFHQSA" ,
+        },
+        {
+            _id: 3,
+            itemname: "Sunita Sumati ",
+            phone:"(252) 258-3799",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVPz9Dx3KZoLsaeE_gEeWAcn4h_ds3FUUjoA&usqp=CAU" ,
+        },
+        {
+            _id: 4,
+            itemname: " Mukesha Bala",
+            phone:"(201) 874-8593",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU" ,
+        },
+        {
+            _id: 5,
+            itemname: "Uttara Gopinatha ",
+            phone:"(212) 658-3916",
+            url:"https://media.licdn.com/dms/image/D5603AQFJRRao1PPloQ/profile-displayphoto-shrink_100_100/0/1679996385641?e=1685577600&v=beta&t=Ezxnwj2C8p1I_iF1bXdSS8c9Kv8KYCqBVxngZw5iw1s" ,
+        },
+        {
+            _id: 6,
+            itemname: "Shreya Buggi",
+            phone:"(212) 658-3916",
+            url:"https://media.licdn.com/dms/image/C4D03AQFf4rpPdlOdoA/profile-displayphoto-shrink_400_400/0/1658639289974?e=1685577600&v=beta&t=vzy7_RmygzAnHTV0IcmskSMdI2nmU7w9wBpJ8ifVLPs" ,
+        },
+    ]
