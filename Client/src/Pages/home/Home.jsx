@@ -6,16 +6,16 @@ export default function Home() {
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active ">
-            <img src={require("./img.jpg")} className="d-block carouselImg" alt="..." />
+            <div className="carouselImg"><img src={require("./img.jpg")} className="d-block" alt="..." /></div>
           </div>
-          <div className="carousel-item">
-            <img src={require("./img3.webp")} className="d-block carouselImg" alt="..." />
+          <div className="carousel-item active ">
+            <div className="carouselImg"><img src={require("./img3.webp")} className="d-block" alt="..." /></div>
           </div>
-          <div className="carousel-item">
-            <img src={require("./img5.png")} className="d-block carouselImg" alt="..." />
+          <div className="carousel-item active ">
+            <div className="carouselImg"><img src={require("./img5.png")} className="d-block" alt="..." /></div>
           </div>
-          <div className="carousel-item">
-            <img src={require("./img9.jpg")} className="d-block carouselImg" alt="..." />
+          <div className="carousel-item active ">
+            <div className="carouselImg"><img src={require("./img9.jpg")} className="d-block" alt="..." /></div>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
