@@ -7,6 +7,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './Pages/home/Home';
+import About from './Pages/about/About';
 import Profile from './Pages/profile/Profile';
 import Dashboard from './Pages/dashboard/Dashboard';
 import Equipment from './Pages/equipment/Equipment';
@@ -25,6 +26,7 @@ function App() {
           <div className='mainAppPage'>
             <Routes>
               <Route exact path="/" element={<Home />} />
+              <Route exact path="/about" element={<About />} />
               <Route exact path="/profile" element={<Profile />} />
               <Route exact path="/dashboard" element={<Dashboard />} />
               <Route exact path="/equipment" element={<Equipment />} />

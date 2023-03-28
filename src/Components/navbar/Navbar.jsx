@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className='navbarWrapper'>
       <div className='navbarWapperLeft'>
         <button name="" onClick={handleClick}>Home</button>
-        <button>About</button>
+        <button name="about" onClick={handleClick}>About</button>
         <button>News</button>
         <button>Programmes and Schemes</button>
       </div>
