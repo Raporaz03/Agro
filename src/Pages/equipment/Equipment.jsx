@@ -3,6 +3,7 @@ import "./equipment.css";
 export default function Equipment() {
   return (
     <div className="equipmentWrapperInfo">
+      <h1>Modern Day Equipments and Technology</h1>
       <div className="equipmentWrapperInfoIntro">
         <p>
           Modern farmers have a huge range of equipment options for the various
