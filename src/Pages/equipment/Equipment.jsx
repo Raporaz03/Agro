@@ -84,7 +84,7 @@ export default function Equipment() {
             </li>
           </ul>
         </div>
-        <div className="equipmentWrapperInfoCom">
+        <div className="equipmentWrapperInfoFarm">
           <h2>2.Combine or Harvestors</h2>
           <img
             className="equipmentWrapperInfoImg"
@@ -127,7 +127,7 @@ export default function Equipment() {
             year.
           </p>
         </div>
-        <div className="equipmentWrapperInfoCom">
+        <div className="equipmentWrapperInfoFarm">
           <h2>3.ATV OR UTV</h2>
           <img
             className="equipmentWrapperInfoImg"
@@ -145,7 +145,7 @@ export default function Equipment() {
           </p>
         </div>
 
-        <div className="equipmentWrapperInfoCom">
+        <div className="equipmentWrapperInfoFarm">
           <h2>TRACTOR ATTACHMENTS</h2>
           Tractor attachments are attached to tractors or pulled behind them to
           add a new level of functionality. Their uses range widely from soil
@@ -157,173 +157,182 @@ export default function Equipment() {
             alt="tractor attachments"
           />
         </div>
-
-        <h3>1. Plows</h3>
-        <p>
-          A plow is a large tractor attachment that drags behind the tractor,
-          using long blades to cut furrows in the soil. This process not only
-          loosens and turns the soil, but it also helps kill off any surface
-          vegetation that is not intended to be there. While the soil has to go
-          through several subsequent steps to be ready for planting, plowing is
-          an essential first step. The concept of a plow may seem simple enough,
-          but there are a variety of different plow types. Each plow type is
-          suited to a specific soil type, soil condition and crop type. Here is
-          a look at the three most common types of plows:
-        </p>
-        <ul>
-          <li>
-            Moldboard plows: Moldboard plows consist of wing-shaped blades,
-            which are specifically designed to cut into and turn the soil. This
-            is an ideal type of plow for shallow but thorough soil turning,
-            which is often necessary for land that hasn't been used for crop
-            production for several years.
-          </li>
-          <li>
-            Disc plows: Disc plows consist of rows of discs that work to turn
-            the soil and cut up weeds. These are less common than moldboard
-            plows as they are less effective at turning the soil, but disc plows
-            may be more useful for soil that is particularly sticky or rocky.
-          </li>
-          <li>
-            Chisel plows: Chisel plows consist of exceptionally long shanks.
-            These shanks turn the soil at a depth of a foot or more. This is
-            often necessary for land that has been used for consistent crop
-            production.
-          </li>
-        </ul>
-        <p>
-          Plows can range widely in price from a few hundred to several thousand
-          dollars depending on the type, size, brand and condition of the plow.
-        </p>
-
-        <h2>2.HARROWS</h2>
-        <p>
-          Where plowing primes the soil, harrowing further agitates it in
-          preparation for agricultural work. These attachments break down clumps
-          of soil, make the soil surface level and redistribute crop and weed
-          residue to make it easier for new plants to take root and grow.
-          Harrows can also be used after distributing manure and fertilizer, as
-          they can help break up clumps and distribute the fertilizer more
-          evenly.
-        </p>
-        <img
-          className="equipmentWrapperInfoImg"
-          src={require("./7-Types-of-Harrows.jpg")}
-          alt="Harrows"
-        />
-        <p>Some common types of harrows include:</p>
-        <ul>
-          <li>
-            Spring harrows: Spring harrows are an older style that isn't
-            commonly found today. These attachments use flexible iron teeth
-            mounted in rows to loosen and agitate the soil.
-          </li>
-          <li>
-            Roller harrows: Roller harrows look like large spiked tubes and, as
-            the name suggests, are rolled across the soil to help crush the soil
-            and prepare it for seed planting.
-          </li>
-          <li>
-            Chain harrows: Chain harrows look like chain nets with spiked
-            attachments. These are run over the surface of the ground to help
-            aerate and spread soil and fertilizer.
-          </li>
-          <li>
-            Disc harrows: Disc harrows are the more modern version of spring
-            harrows, and consist of rows of large discs that break up soil and
-            weeds more thoroughly after plowing.
-          </li>
+        <div className="equipmentWrapperInfoFarm">
+          <h3>1. Plows</h3>
           <p>
-            Often, multiple types of harrows are used for different purposes and
-            may be used multiple times during the soil preparation process.
-            Harrows can be pulled behind tractors or ATVs, depending on their
-            size and complexity. More advanced harrows require a tractor, but
-            they often combine the benefits of multiple types of harrows all
-            into one.
+            A plow is a large tractor attachment that drags behind the tractor,
+            using long blades to cut furrows in the soil. This process not only
+            loosens and turns the soil, but it also helps kill off any surface
+            vegetation that is not intended to be there. While the soil has to go
+            through several subsequent steps to be ready for planting, plowing is
+            an essential first step. The concept of a plow may seem simple enough,
+            but there are a variety of different plow types. Each plow type is
+            suited to a specific soil type, soil condition and crop type. Here is
+            a look at the three most common types of plows:
           </p>
-        </ul>
+          <ul>
+            <li>
+              Moldboard plows: Moldboard plows consist of wing-shaped blades,
+              which are specifically designed to cut into and turn the soil. This
+              is an ideal type of plow for shallow but thorough soil turning,
+              which is often necessary for land that hasn't been used for crop
+              production for several years.
+            </li>
+            <li>
+              Disc plows: Disc plows consist of rows of discs that work to turn
+              the soil and cut up weeds. These are less common than moldboard
+              plows as they are less effective at turning the soil, but disc plows
+              may be more useful for soil that is particularly sticky or rocky.
+            </li>
+            <li>
+              Chisel plows: Chisel plows consist of exceptionally long shanks.
+              These shanks turn the soil at a depth of a foot or more. This is
+              often necessary for land that has been used for consistent crop
+              production.
+            </li>
+          </ul>
+          <p>
+            Plows can range widely in price from a few hundred to several thousand
+            dollars depending on the type, size, brand and condition of the plow.
+          </p>
 
-        <h2>3.FERTILIZER SPREADERS</h2>
-        <p>
-          Fertilizer spreaders function as the name suggests — they spread
-          fertilizer across a field. While there are fertilizer spreaders that
-          can be run separately, most farming operations require a tractor-run
-          fertilizer spreader for quick, evenly distributed fertilization. There
-          are multiple types of fertilizer spreaders, varying primarily based on
-          the type of fertilizer used. These are some of the more common types
-          of tractor-mounted fertilizer spreaders:
-        </p>
-        <ul>
-          <li>
-            Broadcast spreader: Possibly the most common fertilizer spreader is
-            the broadcast spreader, which works by taking fertilizer and
-            dispersing it using gravity.
-          </li>
-          <li>
-            Manure spreader: Manure spreaders take solid manure from livestock
-            and spread it across a field. This is an easy way of utilizing
-            manure effectively, though the solid manure will often need to be
-            run over with a harrow to break it up and mix it in with the soil.
-          </li>
-          <li>
-            Slurry spreader: Liquid manure spreaders are also known as slurry
-            spreaders, which spray a slurry of liquid manure across a field.
-          </li>
-        </ul>
-        <p>
-          Fertilizer spreaders vary widely in size and price, so consider your
-          application closely before making a decision on which type to buy.
-          It's also worthwhile to note that fertilizer spreader attachments are
-          available for ATVs and UTVs as well as tractors.
-        </p>
+        </div>
+        <div className="equipmentWrapperInfoFarm">
+          <h3>2.HARROWS</h3>
+          <p>
+            Where plowing primes the soil, harrowing further agitates it in
+            preparation for agricultural work. These attachments break down clumps
+            of soil, make the soil surface level and redistribute crop and weed
+            residue to make it easier for new plants to take root and grow.
+            Harrows can also be used after distributing manure and fertilizer, as
+            they can help break up clumps and distribute the fertilizer more
+            evenly.
+          </p>
+          <img
+            className="equipmentWrapperInfoImg"
+            src={require("./7-Types-of-Harrows.jpg")}
+            alt="Harrows"
+          />
+          <p>Some common types of harrows include:</p>
+          <ul>
+            <li>
+              Spring harrows: Spring harrows are an older style that isn't
+              commonly found today. These attachments use flexible iron teeth
+              mounted in rows to loosen and agitate the soil.
+            </li>
+            <li>
+              Roller harrows: Roller harrows look like large spiked tubes and, as
+              the name suggests, are rolled across the soil to help crush the soil
+              and prepare it for seed planting.
+            </li>
+            <li>
+              Chain harrows: Chain harrows look like chain nets with spiked
+              attachments. These are run over the surface of the ground to help
+              aerate and spread soil and fertilizer.
+            </li>
+            <li>
+              Disc harrows: Disc harrows are the more modern version of spring
+              harrows, and consist of rows of large discs that break up soil and
+              weeds more thoroughly after plowing.
+            </li>
+            <p>
+              Often, multiple types of harrows are used for different purposes and
+              may be used multiple times during the soil preparation process.
+              Harrows can be pulled behind tractors or ATVs, depending on their
+              size and complexity. More advanced harrows require a tractor, but
+              they often combine the benefits of multiple types of harrows all
+              into one.
+            </p>
+          </ul>
 
-        <h2>4.SEEDERS</h2>
-        <div className="equipmentWrapperInfoCom"></div>
+        </div>
 
-        <img
-          className="equipmentWrapperInfoImg"
-          src={require("./8-Seeders-Definition.jpg")}
-          alt="ATV OR UTV image"
-        />
-        <p>
-          Seeders, as the name would suggest, are designed to spread seeds
-          across large plots of land quickly and efficiently. While small farms
-          may use small mechanical seeders or even hand-seeding methods,
-          tractor-pulled seeders are most commonly used in large-scale farms
-          today. There are different machines used in agriculture seeding,
-          however, such as the following:
-        </p>
-        <ul>
-          <li>
-            Broadcast seeders: Broadcast seeders are also known as seeders or
-            rotary spreaders, and they come in all sizes. These seeders work by
-            placing seeds inside a hopper. Inside the hopper, a plate turns,
-            taking seeds in for dispersing across the field. While this method
-            is very effective to plant cover crops and grasses, it is not ideal
-            for garden crops that need more organization, such as to be laid out
-            in rows.
-          </li>
-          <li>
-            Air seeders: Air seeders are very large seeders that use compressed
-            air to shoot seeds into the ground. Though highly effective, air
-            seeders can only be used on small, round seeds because of the way
-            they operate, which limits their utility.
-          </li>
-          <li>
-            Box drill seeders: Box drills are the preferred seeder for most
-            farming operations due to the fact that they are easy to use and
-            work with a wide variety of seed types. These attachments drill into
-            the soil and drop seeds at a specific depth.
-          </li>
-          <li>
-            Planters: Planters are the most accurate seeders, though they also
-            tend to be the most expensive. Planters consist of several blades
-            and wheels topped with seedboxes that contain the seeds to be
-            planted. The planter works by cutting into the ground, dropping
-            individual seeds, then closing the ground behind them, all in quick
-            succession.
-          </li>
-        </ul>
+        <div className="equipmentWrapperInfoFarm">
+          <h3>3.FERTILIZER SPREADERS</h3>
+          <p>
+            Fertilizer spreaders function as the name suggests — they spread
+            fertilizer across a field. While there are fertilizer spreaders that
+            can be run separately, most farming operations require a tractor-run
+            fertilizer spreader for quick, evenly distributed fertilization. There
+            are multiple types of fertilizer spreaders, varying primarily based on
+            the type of fertilizer used. These are some of the more common types
+            of tractor-mounted fertilizer spreaders:
+          </p>
+          <ul>
+            <li>
+              Broadcast spreader: Possibly the most common fertilizer spreader is
+              the broadcast spreader, which works by taking fertilizer and
+              dispersing it using gravity.
+            </li>
+            <li>
+              Manure spreader: Manure spreaders take solid manure from livestock
+              and spread it across a field. This is an easy way of utilizing
+              manure effectively, though the solid manure will often need to be
+              run over with a harrow to break it up and mix it in with the soil.
+            </li>
+            <li>
+              Slurry spreader: Liquid manure spreaders are also known as slurry
+              spreaders, which spray a slurry of liquid manure across a field.
+            </li>
+          </ul>
+          <p>
+            Fertilizer spreaders vary widely in size and price, so consider your
+            application closely before making a decision on which type to buy.
+            It's also worthwhile to note that fertilizer spreader attachments are
+            available for ATVs and UTVs as well as tractors.
+          </p>
+        </div>
+        <div className="equipmentWrapperInfoFarm">
+
+          <h3>4.SEEDERS</h3>
+          <div className="equipmentWrapperInfoCom"></div>
+
+          <img
+            className="equipmentWrapperInfoImg"
+            src={require("./8-Seeders-Definition.jpg")}
+            alt="ATV OR UTV image"
+          />
+          <p>
+            Seeders, as the name would suggest, are designed to spread seeds
+            across large plots of land quickly and efficiently. While small farms
+            may use small mechanical seeders or even hand-seeding methods,
+            tractor-pulled seeders are most commonly used in large-scale farms
+            today. There are different machines used in agriculture seeding,
+            however, such as the following:
+          </p>
+          <ul>
+            <li>
+              Broadcast seeders: Broadcast seeders are also known as seeders or
+              rotary spreaders, and they come in all sizes. These seeders work by
+              placing seeds inside a hopper. Inside the hopper, a plate turns,
+              taking seeds in for dispersing across the field. While this method
+              is very effective to plant cover crops and grasses, it is not ideal
+              for garden crops that need more organization, such as to be laid out
+              in rows.
+            </li>
+            <li>
+              Air seeders: Air seeders are very large seeders that use compressed
+              air to shoot seeds into the ground. Though highly effective, air
+              seeders can only be used on small, round seeds because of the way
+              they operate, which limits their utility.
+            </li>
+            <li>
+              Box drill seeders: Box drills are the preferred seeder for most
+              farming operations due to the fact that they are easy to use and
+              work with a wide variety of seed types. These attachments drill into
+              the soil and drop seeds at a specific depth.
+            </li>
+            <li>
+              Planters: Planters are the most accurate seeders, though they also
+              tend to be the most expensive. Planters consist of several blades
+              and wheels topped with seedboxes that contain the seeds to be
+              planted. The planter works by cutting into the ground, dropping
+              individual seeds, then closing the ground behind them, all in quick
+              succession.
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   );

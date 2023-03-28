@@ -36,6 +36,7 @@
     outline: none;
 }
 .navbarIcons{
+    color: inherit;
     margin-right: 10px;
     width: 32px !important;
     height: 32px !important;
@@ -43,4 +44,14 @@
 .navbarWapperRight{
     position: relative;
     right: 0px;
+    display: flex;
+    align-items: center;
+}
+.userBtn:hover{
+    color: aliceblue !important;
+    background-color: #7CA772 !important;
+}
+.userBtn:focus{
+    color: aliceblue !important;
+    background-color: #81cb70 !important;
 }
