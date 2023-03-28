@@ -1,6 +1,9 @@
 .sideWrapper{
+    position: fixed;
+    top: 60px;
+    bottom: 0;
     width: 15%;
-    height: 100vh;
+    height: 732px;
     background-color: #7CA772;
     padding-top: 15px;
     display: flex;
