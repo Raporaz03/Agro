@@ -5,14 +5,17 @@ export default function Home() {
     <div className="homeWrapper">
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={require("./img0.jpg")} className="d-block w-100" alt="..." />
+          <div className="carousel-item active ">
+            <img src={require("./img.jpg")} className="d-block carouselImg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={require("./img1.jpg")} className="d-block w-100" alt="..." />
+            <img src={require("./img3.webp")} className="d-block carouselImg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={require("./img2.jpg")} className="d-block w-100" alt="..." />
+            <img src={require("./img5.png")} className="d-block carouselImg" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={require("./img9.jpg")} className="d-block carouselImg" alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
