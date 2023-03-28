@@ -1,0 +1,49 @@
+.loginWrapper{
+    width: 100%;
+    height: 92vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginContainer{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    box-shadow: 0 0 16px 2px rgb(199, 199, 225);
+    border-radius: 10px;
+}
+.loginContainer img{
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    width: 55%;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.loginBox{
+    border-radius: 10px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    background-color: #F1F8FF;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+@keyframes switch {
+    from{
+        left: 0;
+    }
+    to{
+        left: 50%;
+    }
+}
+@keyframes switchReverse {
+    from{
+        right: 0;
+    }
+    to{
+        right: 50%;
+    }
+}
