@@ -2,6 +2,7 @@ import "./sign.css";
 import { Link } from 'react-router-dom';
 import userContext from '../../Context/userContext/userContext';
 import { useContext } from "react";
+import axios from 'axios';
 export default function Sign(props) {
     const {mainUser, setMainUser} = useContext(userContext);
     const host = "http://localhost:5000/api/auth"
