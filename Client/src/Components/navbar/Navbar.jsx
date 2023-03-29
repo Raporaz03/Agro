@@ -7,6 +7,11 @@ export default function Navbar() {
   const handleClick = (e) => {
     navigate(e.target.name);
   }
+  const userId = localStorage.getItem('userId');
+  console.log(userId)
+  const handleLogout = () => {
+    localStorage.removeItem('userId');
+  }
 
   return (
     <div className='navbarWrapper'>
@@ -20,16 +25,20 @@ export default function Navbar() {
         <input type="text" placeholder="Search here" />
       </div>
       <div className='navbarWapperRight'>
-        <div className="dropdown">
+        {userId ? <div className="dropdown">
           <button className="userBtn btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <PersonIcon className="navbarIcons" />
-            username
+            {}
           </button>
           <ul className="dropdown-menu mt-2">
             <li><Link className="dropdown-item" to='/signup'>Sign up</Link></li>
-            <li><Link className="dropdown-item" to='/login'>Log out</Link></li>
+            <li><Link onClick={handleLogout} className="dropdown-item" to='/login'>Log out</Link></li>
           </ul>
-        </div>
+        </div> :
+          <div className="d-flex">
+            <Link className="navbarBtn mx-2" to="/login" >Login</Link>
+            <Link className="navbarBtn mx-2" to="/signup" >SignUp</Link>
+          </div>}
       </div>
     </div>
   )

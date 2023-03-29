@@ -4,7 +4,7 @@ export default function Crop(props) {
     const {name, url, text} = props.crop
     return (
         <div class="card" style={{ width: "20rem" }}>
-            <img src={url} class="card-img-top"alt="Image"/>
+            <img src={url} class="card-img-top" alt="imageNotAvailable"/>
             <div class="card-body">
                 <h5 class="card-title">{name}</h5>
                 <p class="card-text">{text}</p>

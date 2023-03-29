@@ -133,7 +133,7 @@ export default function Equipment() {
           <img
             className="equipmentWrapperInfoImg"
             src={require("./5-All-Terain-Vehicles.jpg")}
-            alt="ATV OR UTV image"
+            alt="ATVORUTVimage"
           />
           <p>
             All-terrain vehicles, also known as ATVs or four-wheelers, are
@@ -287,11 +287,10 @@ export default function Equipment() {
 
           <h3>4.SEEDERS</h3>
           <div className="equipmentWrapperInfoCom"></div>
-
           <img
             className="equipmentWrapperInfoImg"
             src={require("./8-Seeders-Definition.jpg")}
-            alt="ATV OR UTV image"
+            alt="ATVORUTVimage"
           />
           <p>
             Seeders, as the name would suggest, are designed to spread seeds

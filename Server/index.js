@@ -10,6 +10,7 @@ const authRoute = require('./routes/auth');
 const usersRoute = require('./routes/users');
 const conversationRoute = require('./routes/conversation');
 const messageRoute = require('./routes/message');
+const dataRoute = require('./routes/data');
 
 const port = 5000;
 const bodyParser = require('body-parser');
@@ -31,10 +32,11 @@ app.use(morgan("common"));
 app.use(express.json());
 
 app.use('/api/auth', authRoute);
+app.use('/api/data', dataRoute);
 app.use('/api/users', usersRoute);
 app.use('/api/conversation', conversationRoute);
 app.use('/api/message', messageRoute);
 
 app.listen(port, () => {
-    console.log(`Social app running at http://localhost:${port}`);
+    console.log(`Agro App running at http://localhost:${port}`);
 })

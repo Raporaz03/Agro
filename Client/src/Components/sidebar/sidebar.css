@@ -21,7 +21,7 @@
     color: aliceblue;
     background-color: transparent;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 .sideWrapper button:hover{
@@ -33,7 +33,7 @@
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
 }
 .sideWrapper img{
     margin-right: 10px;

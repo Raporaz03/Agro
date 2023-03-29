@@ -25,7 +25,7 @@
     padding: 0 20px;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: white;
 }
 .searchBar input{
@@ -54,4 +54,18 @@
 .userBtn:focus{
     color: aliceblue !important;
     background-color: #81cb70 !important;
+}
+.navbarBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #81cb70;
+    width: 80px;
+    height: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 8px;
+}
+.navbarBtn:hover{
+    background-color: #6db85d;
 }

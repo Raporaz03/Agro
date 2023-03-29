@@ -7,7 +7,7 @@ export default function About() {
       <h4>Inroduction:</h4>
       <p> Farming and agriculture have always been one of the essential economic activities in India.
         Near about two-thirds of the population engaged in agriculture and agriculture-related activities,
-        it is crucial to understand India’s plight and why they are struggling. For a few decades, the working
+        it is crucial to understand India's plight and why they are struggling. For a few decades, the working
         environment and the agricultural scenario are stagnant, and it is no more a profit-making sector like before.
         Our aim is to empower the agricultural sector in India.
         There is high need that farmers get awared about the new technologies and equiments that can be very benificial
