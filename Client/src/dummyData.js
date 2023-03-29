@@ -284,3 +284,45 @@ export const specialists = [
         url: "https://media.licdn.com/dms/image/C4D03AQFf4rpPdlOdoA/profile-displayphoto-shrink_400_400/0/1658639289974?e=1685577600&v=beta&t=vzy7_RmygzAnHTV0IcmskSMdI2nmU7w9wBpJ8ifVLPs",
     },
 ]
+
+
+    export const workforce = [
+
+        {
+            _id: 1,
+            itemname: "Murugan Arjuna",
+            phone:"(212) 658-3916",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMOgc-WqbgagnyjIGnPOvsxypn_bNVODFaQ&usqp=CAU" ,
+        },
+        {
+            _id: 2,
+            itemname: "Gargi Vishnu",
+            phone:"01123515706",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJmFW_rzPyuJUmTEmTk9ZLB7u1CmTclyKCA&usqp=CAU" ,
+        },
+        {
+            _id:3,
+            itemname: "Manish Vaishnavi",
+            phone:"04023515632 ",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXY5yzb8ua67588tFcGM38QIjexHVu4a1DkQ&usqp=CAU"
+        },
+        {
+            _id:4,
+            itemname: "Sanjaya Yama",
+            phone:"07926853075 ",
+            url:"https://pbs.twimg.com/profile_images/1485050791488483328/UNJ05AV8_400x400.jpg" ,
+        },
+        {
+            _id:5,
+            itemname: "Aditya Sandhya",
+            phone:"02226834991 ",
+            url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl645AZxhyREGaFSqm7KOUxMWfoIisMAEx6w&usqp=CAU" ,
+        },
+
+        {
+            _id:6,
+            itemname: "Skanda Sundara",
+            phone:"02228513387 ",
+            url:"https://cdn140.picsart.com/43424857729201191421.webp?type=webp" ,
+        }
+    ]
