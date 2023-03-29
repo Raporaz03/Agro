@@ -2,14 +2,39 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
-.carouselImg{
+.carousel-item{
     height:600px;
     width:100%;
     object-fit: contain;
 }
-.carouselImg img{
+.carouselImg{
     object-fit: contain;
     width: 100% !important;
 }
+.homeWrapperInfo{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeInfo h2{
+    margin: 10px 0;
+}
+.homeInfo p{
+    margin: 10px 0;
+}
+.homeInfo{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeInfo{
+    align-items: center;
+   
+}
+
+
