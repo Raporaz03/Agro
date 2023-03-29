@@ -18,7 +18,6 @@ export default function Navbar() {
         <button name="" onClick={handleClick}>Home</button>
         <button name="about" onClick={handleClick}>About</button>
         <button name="news" onClick={handleClick}>News</button>
-        <button>Programmes and Schemes</button>
       </div>
       <div className="searchBar">
         <input type="text" placeholder="Search here" />

@@ -9,8 +9,8 @@ const JWT_SECRET = process.env.REACT_APP_JWT_SECRET;
 
 //Route for Register
 Router.post('/register', [
-    body("username", "Enter a username with more than 3 characters!").isLength({ min: 3 }),
-    body("email", "Enter a valid username!").isEmail(),
+    body("fullname", "Enter a username with more than 3 characters!").isLength({ min: 3 }),
+    body("phone", "Enter a valid username!"),
     body("password", "Enter a password with more than 6 characters!").isLength({ min: 6 })
 ], async (req, res) => {
     try {
@@ -22,7 +22,7 @@ Router.post('/register', [
         }
 
         //It checks whether a user exists with same email or not
-        let user = User.findOne(req.body.email);
+        let user = User.findOne(req.body.phone);
         if (!user) {
             return res.status(400).josn({success, error : "A User exists with this email, please choose another email!"});
         }
@@ -33,8 +33,8 @@ Router.post('/register', [
 
         //Create the user 
         const newUser = await new User({
-            username: req.body.username,
-            email: req.body.email,
+            phone: req.body.phone,
+            fullname: req.body.fullname,
             password: secPassword
         })
         const data =  {
