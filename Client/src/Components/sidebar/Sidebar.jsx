@@ -1,5 +1,4 @@
 import "./sidebar.css";
-import SpeedIcon from '@mui/icons-material/Speed';
 import AgricultureIcon from '@mui/icons-material/Agriculture';
 import StoreIcon from '@mui/icons-material/Store';
 import PersonIcon from '@mui/icons-material/Person';
@@ -15,10 +14,6 @@ export default function Sidebar() {
   return (
     <div className='sideWrapper'>
       <div className='sideWrapperTop'>
-        <button name="dashboard" onClick={handleClick}>
-          <SpeedIcon className="sidebarIcons" />
-          Dashboard
-        </button>
         <button name="profile" onClick={handleClick}>
           <PersonIcon className="sidebarIcons" />
           Profile

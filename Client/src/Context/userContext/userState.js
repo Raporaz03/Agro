@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-
-export default function userState() {
-    
+import UserContext from './userContext';
+export default function UserState(props) {
+  const [mainUser, setMainUser] = useState({name: "", profilePicture: ""});
   return (
-    <UserContext.Provider value="">
+    <UserContext.Provider value={{mainUser, setMainUser}}>
       {props.children}
     </UserContext.Provider>
   )

@@ -8,7 +8,6 @@ export default function Navbar() {
     navigate(e.target.name);
   }
   const userId = localStorage.getItem('userId');
-  console.log(userId)
   const handleLogout = () => {
     localStorage.removeItem('userId');
   }

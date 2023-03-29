@@ -9,8 +9,74 @@ const Specialists = require('../models/Specialists');
 const Stores = require('../models/Stores');
 const WorkForce = require('../models/WorkForce');
 
+//Get methods
+Router.get('/finance', async (req, res) => {
+    try {
+        const finance = await Finance.find();
+        res.status(200).json(finance);
+    } catch (error) {
+        console.log(error);
+    }
+});
+Router.get('/crops', async (req, res) => {
+    try {
+        const crops = await Crops.find();
+        res.status(200).json(crops);
+    } catch (error) {Crops
+        console.log(error);
+    }
+});
+Router.get('/govSchemes', async (req, res) => {
+    try {
+        const govSchemes = await GovSchemes.find();
+        res.status(200).json(govSchemes);
+    } catch (error) {
+        console.log(error);
+    }
+});
+Router.get('/ngo', async (req, res) => {
+    try {
+        const ngo = await NGO.find();
+        res.status(200).json(ngo);
+    } catch (error) {
+        console.log(error);
+    }
+});
+Router.get('/shg', async (req, res) => {
+    try {
+        const shg = await SHG.find();
+        res.status(200).json(shg);
+    } catch (error) {
+        console.log(error);
+    }
+});
+Router.get('/stores', async (req, res) => {
+    try {
+        const stores = await Stores.find();
+        res.status(200).json(stores);
+    } catch (error) {
+        console.log(error);
+    }
+});
+Router.get('/workforce', async (req, res) => {
+    try {
+        const workforce = await WorkForce.find();
+        res.status(200).json(workforce);
+    } catch (error) {
+        console.log(error);
+    }
+});
+Router.get('/specialists', async (req, res) => {
+    try {
+        const specialists = await Specialists.find();
+        res.status(200).json(specialists);
+    } catch (error) {
+        console.log(error);
+    }
+});
+
+//Post methods
 Router.post('/finance', async (req, res) => {
-    const newFinance = new Finance(req.body);
     try {
         const finance = await newFinance.save();
         res.status(200).json(finance);
@@ -19,7 +85,6 @@ Router.post('/finance', async (req, res) => {
     }
 });
 Router.post('/crops', async (req, res) => {
-    const newCrops = new Crops(req.body);
     try {
         const crops = await newCrops.save();
         res.status(200).json(crops);
@@ -28,7 +93,6 @@ Router.post('/crops', async (req, res) => {
     }
 });
 Router.post('/govSchemes', async (req, res) => {
-    const newGovSchemes = new GovSchemes(req.body);
     try {
         const govSchemes = await newGovSchemes.save();
         res.status(200).json(govSchemes);
@@ -37,7 +101,6 @@ Router.post('/govSchemes', async (req, res) => {
     }
 });
 Router.post('/ngo', async (req, res) => {
-    const newNgo = new NGO(req.body);
     try {
         const ngo = await newNgo.save();
         res.status(200).json(ngo);
@@ -46,7 +109,6 @@ Router.post('/ngo', async (req, res) => {
     }
 });
 Router.post('/shg', async (req, res) => {
-    const newShg = new SHG(req.body);
     try {
         const shg = await newShg.save();
         res.status(200).json(shg);
@@ -55,7 +117,6 @@ Router.post('/shg', async (req, res) => {
     }
 });
 Router.post('/stores', async (req, res) => {
-    const newStores = new Stores(req.body);
     try {
         const stores = await newStores.save();
         res.status(200).json(stores);
@@ -64,7 +125,6 @@ Router.post('/stores', async (req, res) => {
     }
 });
 Router.post('/workforce', async (req, res) => {
-    const newWorkForce = new WorkForce(req.body);
     try {
         const workforce = await newWorkForce.save();
         res.status(200).json(workforce);
@@ -73,7 +133,6 @@ Router.post('/workforce', async (req, res) => {
     }
 });
 Router.post('/specialists', async (req, res) => {
-    const newSpecialists = new Specialists(req.body);
     try {
         const specialists = await newSpecialists.save();
         res.status(200).json(specialists);

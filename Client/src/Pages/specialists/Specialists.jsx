@@ -1,6 +1,23 @@
+import Specialist from "../../Components/specialist/Specialist";
 import "./specialists.css";
-
+import { useEffect, useState } from "react";
+import axios from 'axios';
 export default function Specialists() {
+
+  const [specialists, setSpecialists] = useState([]);
+  const host = process.env.REACT_APP_HOST;
+  useEffect(() => {
+    const fetchSpecialists = async () => {
+      try {
+        const res = await axios.get(`${host}/specialists`);
+        setSpecialists(res.data);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    fetchSpecialists();
+  }, [])
+
   return (
     <div className="specialistsWrapper">
       <div className="SpecialistWrapperInfo">
@@ -75,6 +92,12 @@ export default function Specialists() {
           increase profitability, and contribute to sustainable agricultural
           practices.
         </p>
+      </div>
+      <div className="specialistMembers row">
+        <h2 className="mt-5">Specialist : </h2>
+        {specialists.map(s => {
+          return <div className="col mt-4"><Specialist key={s._id} members={s}/></div>;
+        })}
       </div>
     </div>
   );
