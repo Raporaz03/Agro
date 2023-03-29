@@ -1,11 +1,17 @@
 .homeWrapper{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.carouselImg{
+.carousel-item{
     height:600px;
     width:100%;
+    object-fit: contain;
+}
+.carouselImg{
+    object-fit: contain;
+    width: 100% !important;
 }
 .homeWrapperInfo{
     margin: 50px;

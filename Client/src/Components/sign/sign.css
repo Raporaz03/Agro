@@ -1,0 +1,41 @@
+.loginBox input{
+    padding: 0 12px;
+    border: 1px solid #888;
+    height: 40px;
+    margin: 12px 0;
+    border-radius: 15px;
+}
+.loginBox input:focus{
+    outline: none;
+}
+.forgot{
+    margin-top: 15px;
+    color: #7CA772;
+    text-decoration: none;
+}
+.loginBox button{
+    margin: 10px 0;
+    background-color: #7CA772;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    height: 40px;
+}
+.loginBox button:hover{
+    background-color: #7bac70;
+}
+.SignLog{
+    display: flex;
+    justify-content: center;
+}
+.SignLog span{
+    color: #88a;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.SignLogLink{
+    text-decoration: none;
+    color: #7bac70;
+    font-size: 20px;
+}
