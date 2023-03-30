@@ -1,49 +1,82 @@
-.loginWrapper{
+.loginWrapper {
     width: 100%;
     height: 92vh;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 1s ease-in-out;
 }
-.loginContainer{
+
+.loginContainer {
     width: 1000px;
     height: 500px;
     display: flex;
     box-shadow: 0 0 16px 2px rgb(199, 199, 225);
     border-radius: 10px;
 }
-.loginContainer img{
-    z-index: 2;
+
+#loginCon {
     position: relative;
     height: 100%;
-    width: 55%;
+    width: 50%;
+}
+
+#loginCon img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
     border-radius: 10px;
     border-radius: 10px;
 }
-.loginBox{
+
+.loginBox {
     border-radius: 10px;
     position: relative;
     width: 50%;
     display: flex;
-    background-color: #F1F8FF;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
 }
-@keyframes switch {
-    from{
+
+@keyframes switch1 {
+    from {
         left: 0;
     }
-    to{
+
+    to {
         left: 50%;
     }
 }
-@keyframes switchReverse {
-    from{
+
+@keyframes switchReverse1 {
+    from {
         right: 0;
     }
-    to{
+
+    to {
         right: 50%;
+    }
+}
+
+@keyframes switch2 {
+    from {
+        left: 50%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes switchReverse2 {
+    from {
+        right: 50%;
+    }
+
+    to {
+        right: 0;
     }
 }

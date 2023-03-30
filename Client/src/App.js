@@ -17,13 +17,20 @@ import Stores from './Pages/stores/Stores';
 import Finance from './Pages/finance/Finance';
 import Majorcrops from './Pages/majorcrops/Majorcrops';
 import Login from './Pages/login/Login';
-import UserState from './Context/userContext/UserState';
+import { useContext, useEffect } from 'react';
+import userContext from './Context/userContext/userContext';
+
 
 function App() {
+  const authToken = localStorage.getItem('token');
   const apiKey = process.env.REACT_APP_NEWS_API;
+  const {getMainUser} = useContext(userContext);
+  useEffect(()=>{
+    if(authToken)
+      getMainUser();
+  }, []);
+
   return (
-    <Router>
-      <UserState>
         <div className='App'>
           <Navbar />
           <div className='mainApp'>
@@ -46,8 +53,7 @@ function App() {
             </div>
           </div>
         </div>
-      </UserState>
-    </Router>
+
   );
 }
 

@@ -2,7 +2,13 @@ import "./navbar.css"
 import PersonIcon from '@mui/icons-material/Person';
 import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import userContext from "../../Context/userContext/userContext"
 export default function Navbar() {
+
+  const {mainUser} = useContext(userContext);
+  const {fullname, profilePicture} = mainUser;
+
   const navigate = useNavigate();
   const handleClick = (e) => {
     navigate(e.target.name);
@@ -25,8 +31,9 @@ export default function Navbar() {
       <div className='navbarWapperRight'>
         {userId ? <div className="dropdown">
           <button className="userBtn btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {/* <img className="userIcon" src={require("./shreya.jpg")} alt="" /> */}
             <PersonIcon className="navbarIcons" />
-            {}
+            {fullname}
           </button>
           <ul className="dropdown-menu mt-2">
             <li><Link className="dropdown-item" to='/signup'>Sign up</Link></li>

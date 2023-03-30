@@ -69,3 +69,9 @@
 .navbarBtn:hover{
     background-color: #6db85d;
 }
+.userIcon{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}

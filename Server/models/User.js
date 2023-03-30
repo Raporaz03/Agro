@@ -10,7 +10,8 @@ const UserSchema = new Schema({
     phone:{
         type: String,
         max:10,
-        min:10
+        min:10,
+        unique:true
     },
     password: {
         type: String,
@@ -23,5 +24,5 @@ const UserSchema = new Schema({
     }
 }, { timestamps: true });
 
-const User = mongoose.model("user", UserSchema);
+const User = mongoose.model("User", UserSchema);
 module.exports = User;

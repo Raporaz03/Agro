@@ -27,7 +27,7 @@ export default function Sign(props) {
             <button onClick={handleClick}>Sign Up</button>
             <div className='SignLog'>
                 <span>Already have a Account?</span>
-                <Link to="/login" className='SignLogLink'>LogIn</Link>
+                <Link onClick={props.click} to="/login" className='SignLogLink'>LogIn</Link>
             </div>
         </>
     )
